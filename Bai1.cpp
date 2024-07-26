@@ -10,7 +10,7 @@ bool isPrime(int n) {
 }
 
 int main() {
-    vector<int> a = {2, 3, 19, 88, 100, 28, 47, 31, 14, 25};
+    int a[] = {2, 3, 19, 88, 100, 28, 47, 31, 14, 25};
     for (int i : a) {
         if (isPrime(i)) cout << i << " ";
     }
